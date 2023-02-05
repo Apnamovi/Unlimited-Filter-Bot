@@ -218,6 +218,9 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton("Command Help", callback_data="help_data")
+                ],
+                [
+                    InlineKeyboardButton("Lusi Films Official", url="https://LusiFilms")
                 ]
             ]
         ),
@@ -243,12 +246,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Subscribe", url="https://www.youtube.com/@GreyMattersYT"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("Lusi Films", url="https://t.me/lusifilms"),
+                    InlineKeyboardButton("Request Group", url="https://t.me/apnamovie4")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/GreyMatter_Bots"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/greymatter_support")
+                    InlineKeyboardButton("Back", callback_data="start_data"),
+                    InlineKeyboardButton("About Me", callback_data="about_data")
                 ]
             ]
         ),
@@ -264,12 +267,8 @@ async def about(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/Greymattersbot/Unlimited-Filter-Bot")
-                ],
-                [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("CLOSE", callback_data="close_data")
                 ]                
             ]
         ),
