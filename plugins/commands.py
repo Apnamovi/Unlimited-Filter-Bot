@@ -217,10 +217,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("Lusi Films Official", url="https://t.me/LusiFilms")
                 ], 
                 [
-                    InlineKeyboardButton("Lusi Films Official", url="https://t.me/LusiFilms")
+                    InlineKeyboardButton("Command Help", callback_data="help_data")
                 ]
             ]
         ),
@@ -250,7 +250,7 @@ async def help(client, message):
                     InlineKeyboardButton("Request Group", url="https://t.me/apnamovie4")
                 ],
                 [
-                    InlineKeyboardButton("Close", callback_data="close_data"),
+                    InlineKeyboardButton("Back", callback_data="start_data"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ]
             ]
