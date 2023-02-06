@@ -31,9 +31,9 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton("Command Help", callback_data="help_data")
-                ],
+                ], 
                 [
-                    InlineKeyboardButton("Lusi Films Official", url="https://LusiFilms")
+                    InlineKeyboardButton("Lusi Films Official", url="https://t.me/LusiFilms")
                 ]
             ]
         )
