@@ -37,6 +37,8 @@ class Config(object):
     # To check dyno status
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "")
 
+    START_PHOTO = os.environ.get("START_PHOTO", "https://telegra.ph/file/7d357b72c29a6aa21fb78.jpg")
+
 
     # OPTIONAL - To set alternate BOT COMMANDS
     ADD_FILTER_CMD = os.environ.get("ADD_FILTER_CMD", "add")
