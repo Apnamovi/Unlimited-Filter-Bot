@@ -54,7 +54,7 @@ async def cb_handler(client, query):
                     InlineKeyboardButton("Request Group", url="https://t.me/apnamovie4")
                 ],
                 [
-                    InlineKeyboardButton("Back", callback_data="start_data"),
+                    InlineKeyboardButton("Back", callback_data="close_data"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ]
             ]
