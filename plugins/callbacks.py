@@ -30,10 +30,10 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("Command Help", url="https://t.me/LusiFilms")
                 ], 
                 [
-                    InlineKeyboardButton("Lusi Films Official", url="https://t.me/LusiFilms")
+                    InlineKeyboardButton("Lusi Films Official", callback_data="help_data")
                 ]
             ]
         )
@@ -54,7 +54,7 @@ async def cb_handler(client, query):
                     InlineKeyboardButton("Request Group", url="https://t.me/apnamovie4")
                 ],
                 [
-                    InlineKeyboardButton("Back", callback_data="close_data"),
+                    InlineKeyboardButton("Back", callback_data="start_data"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ]
             ]
