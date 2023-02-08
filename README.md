@@ -1,3 +1,6 @@
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Wᴇʟᴄᴏᴍᴇ+Tᴏ+Aᴡᴇsᴏᴍᴇ+Fɪʟᴛᴇʀ+Pʀᴏ+Rᴇᴘᴏ+!!!!!;Cʀᴇᴀᴛᴇᴅ+Bʏ+TᴀᴍɪʟᴀɴBᴏᴛsZ+Tᴇᴀᴍ+!!!!!;Mᴀᴅᴇ+Wɪᴛʜ+Tᴀᴍɪʟᴀɴ+Lᴏᴠᴇ+♥️+!!!!)</p>
+<p align="center">
+
 # Unlimited Filter Bot
 
 
