@@ -75,13 +75,11 @@
 Thanks to [InfotelGroup](https://telegram.dog/InFoTel_Group) and [Erich Daniken](https://telegram.dog/ErichDaniken) for the video
 
 
-## Any bugs or errors or suggestions, report at [GreyMatter's Support](https://www.telegram.dog/GreyMatters_Support)
-
 
 ## Installation
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Greymattersbot/Unlimited-Filter-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Apnamovi/Unlimited-Filter-Bot)
 
 ### Deploy in your vps
 ```sh
@@ -125,9 +123,6 @@ python3 bot.py
 
 * DISCONNECT_COMMAND  -  default will be 'disconnect'
 
-EG;  
-![Vars Eg](https://telegra.ph/file/1f956f3491f2f20a9c1ec.jpg)
-
 ## Credits
 
 <p align="left">
@@ -139,11 +134,5 @@ EG;
 <p align="left">
   <a href="https://docs.mongodb.com">
     <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://github.com/TroJanzHEX">
-    <img alt="TroJanzHEX" src ="https://img.shields.io/badge/TroJanzHEX-Developer-orange?style=for-the-badge&logo=telegram"/>
   </a>
 </p>
