@@ -18,9 +18,9 @@ contact to make bot like me
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
+    ABOUT_MSG = """⭕️<b>My Name : Filter Bot - Lusi Films</b>
 
-⭕️<b>Creater :</b> @LusiFilms    
+⭕️<b>Creater :</b> @MindsBoss    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
